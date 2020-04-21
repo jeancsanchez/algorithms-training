@@ -3,4 +3,4 @@ project(algoritmos)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algoritmos src/Main.cpp src/BubbleSort.cpp src/LinearSearch.cpp include/TestsCases.h)
+add_executable(algoritmos src/Main.cpp src/BubbleSort.cpp src/LinearSearch.cpp src/InsertionSort.cpp include/TestsCases.h)

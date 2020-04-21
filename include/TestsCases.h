@@ -5,8 +5,9 @@
 #ifndef ALGORITMOS_TESTSCASES_H
 #define ALGORITMOS_TESTSCASES_H
 
-void bubbleSort(int *array, unsigned int size);
 
+void bubbleSort(int *array, unsigned int size);
 int findCheaper(const int *array, unsigned int size);
+void insertionSort(int *array, unsigned int size);
 
 #endif //ALGORITMOS_TESTSCASES_H
