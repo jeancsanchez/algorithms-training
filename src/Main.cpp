@@ -41,3 +41,19 @@ TEST_CASE("Insertion sort", "[insertionSort]")
     REQUIRE(array[6] == 100);
     REQUIRE(array[7] == 480);
 }
+
+TEST_CASE("Selection sort", "[insertionSort]")
+{
+    const int size = 8;
+    int array[size] = {10, 480, 40, 20, 100, 1, 4, -1};
+    selectionSort(array, size);
+
+    REQUIRE(array[0] == -1);
+    REQUIRE(array[1] == 1);
+    REQUIRE(array[2] == 4);
+    REQUIRE(array[3] == 10);
+    REQUIRE(array[4] == 20);
+    REQUIRE(array[5] == 40);
+    REQUIRE(array[6] == 100);
+    REQUIRE(array[7] == 480);
+}
